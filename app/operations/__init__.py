@@ -3,11 +3,11 @@ def addition(a: float, b: float) -> float:
 
 def subtraction(a: float, b: float) -> float:
     return a - b  
-    
+
 def multiplication(a: float, b: float) -> float:
     return a * b  
 
 def division(a: float, b: float) -> float:
     if b == 0:
-        raise ValueError("Cannot divide by 0.")  
+        raise ValueError("Division by 0 is not allowed.")  
     return a / b  
